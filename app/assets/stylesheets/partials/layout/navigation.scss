@@ -72,3 +72,18 @@ body {
   color: black !important;
   background: white !important;
 }
+
+a.form-control:hover {
+  background: lightblue !important;
+  color: red !important;
+  i {
+    color: black;
+  }
+}
+input.form-control:hover {
+  background: lightblue !important;
+  color: blue !important;
+  i {
+    color: black;
+  }
+}

@@ -78,7 +78,7 @@ group :test do
   gem "webdrivers"
 
   gem 'rspec-rails', '~> 3.6'
-  gem 'factory_girl_rails'
+  gem "factory_bot_rails"
   gem 'rails-controller-testing'
   gem 'headless'
   # gem 'capybara'

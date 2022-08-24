@@ -1,12 +1,12 @@
 
 <div class="container" id="sign-up-form">
   <div class="row">
-    <marquee><h1>Get in touch with like-minded people</h1></marquee>
-    <h3>Create, study, accomplish goals together</h3>
-
+  <h1>Get in touch with like-minded people</h1>
     <div class="col-sm-offset-4 col-sm-4">
-      <h3>Sign up! <strong>it's free!</strong></h3>
-
+<h3>Create, study, accomplish goals together</h3>
+<marquee width="60%" direction="left" height="20px" width="50px" bgcolor="lightyellow">
+<strong>Sign Up! It is Free!</strong>
+</marquee>
 <%= form_for(resource, as: resource_name, url: registration_path(resource_name)) do |f| %>
   <%= render "devise/shared/error_messages", resource: resource %>
 
